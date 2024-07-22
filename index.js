@@ -151,7 +151,7 @@ app.use("/friends", function auth(req, res, next) {
 
             } else {
                 return res.status(403).json(
-                    { message: `User ${user} is not authenticated` }
+                    { message: `User not authenticated. Please register or log in.` }
                 );
             }
         });
