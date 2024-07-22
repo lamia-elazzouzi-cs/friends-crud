@@ -1,0 +1,11 @@
+# Ignore Node Modules Folder Globally
+node_modules/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
