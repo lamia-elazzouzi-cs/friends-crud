@@ -5,9 +5,9 @@
  * To achieve this, we use Session and JWT authentication.
  * 
  * Endpoints:
- *  /register: The user doesn't have to be authenticated to access endpoint
- *  /login: Allows the registered user to login to access /friends endpoint
- *  /friends: Grants access to endpoints defined in routes/friends.js
+ *  POST "/register" - The user doesn't have to be authenticated to access endpoint
+ *  POST "/login"    - Allows the registered user to login to access /friends endpoint
+ *  GET "/friends"   - Grants access to endpoints defined in routes/friends.js
  */
 
 
