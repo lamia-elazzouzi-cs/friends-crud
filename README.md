@@ -25,7 +25,18 @@ Install dependencies:
 
 `npm install`
 
+### Usage
+
 Start server:
 
 `npm start`
 
+Test endpoints using Postman:
+
+- To register/login:
+    - Select 'Body' >> 'raw' >> 'JSON'
+    - Pass the parameters:
+    `{"username":"user2", "password":"password2"}`
+- To Create, Read, Update and delete friends:
+    - Select 'Body' >> 'raw' >> 'JSON'
+    - Pass the parameters: `{"email":"andysmith@gamil.com","firstName":"Andy","lastName":"Smith","DOB":"1/1/1987"}` 
