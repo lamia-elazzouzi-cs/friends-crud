@@ -1,0 +1,20 @@
+{
+  "name": "friends-crud",
+  "version": "1.0.0",
+  "description": "This is a node CRUD project demonstrating operations on transient data, by creating API endpoints with an Express Server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Lamia",
+  "license": "ISC",
+
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.19",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
